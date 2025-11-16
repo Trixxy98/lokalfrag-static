@@ -1,12 +1,18 @@
 import React from 'react'
 import { assets } from '../assets/assets.js'
 import Navbar from './Navbar.jsx'
+import { motion } from 'framer-motion'
 
 const Header = () => {
   return (
     <div className='min-h-screen bg-gray-100 flex flex-col w-full overflow-hidden' id='Home'>
       <Navbar/>
-      <div className='flex-1 flex flex-col items-center justify-center px-6 md:px-20 lg:px-32 py-20'>
+      <motion.div
+      initial={{opacity:0, y:100}}
+      transition={{duration:2.5}}
+      whileInView={{opacity:1,y:0}}
+      viewport={{once:true}} 
+      className='flex-1 flex flex-col items-center justify-center px-6 md:px-20 lg:px-32 py-20'>
         <div>
             <img src=''></img>
             <img src=''></img>
@@ -23,7 +29,7 @@ const Header = () => {
         Contact Us
     </a>
 </div>
-      </div>
+      </motion.div>
     </div>
   )
 }

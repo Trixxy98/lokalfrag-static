@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import { toast } from 'react-toastify';
+import { motion } from 'framer-motion';
 
 const Contact = () => {
 
@@ -30,7 +31,13 @@ const Contact = () => {
 
 
   return (
-    <div className=' bg-gray-100 text-center p-6 py-20 lg:px-32 w-full overflow-hidden' id='ContactUs'>
+    <motion.div 
+    initial={{opacity:0, x:-200}}
+      transition={{duration:1}}
+      whileInView={{opacity:1,x:0}}
+      viewport={{once:true}}
+    
+    className=' bg-gray-100 text-center p-6 py-20 lg:px-32 w-full overflow-hidden' id='ContactUs'>
         <h1 className='text-2xl sm:text-4xl mb-2'>
             Contact <span className='bg-black text-white px-2'>With Us</span>
         </h1>
@@ -55,7 +62,7 @@ const Contact = () => {
             </div>
             <button className=' border text-black py-2 px-12 mb-10 hover:bg-blue-300 hover:text-white'>{result ? result : "Send Message"}</button>
         </form>
-    </div>
+    </motion.div>
   )
 }
 
