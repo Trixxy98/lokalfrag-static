@@ -47,7 +47,7 @@ const Navbar = () => {
     text-gray-200 
     transition-all 
     duration-300 
-    hover:bg-amber-600 
+    hover:bg-blue-400
     hover:text-white
     hover:scale-105
     hover:-translate-y-1

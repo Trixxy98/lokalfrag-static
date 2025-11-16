@@ -13,7 +13,7 @@ const Header = () => {
             <img src=''></img>       
         </div>
         <p className="quote-text">
-          Explore the local hub scent of <span className='bg-black text-white px-2'>fragrences</span> in Malaysia
+          Explore the local hub scent of <span className='bg-black text-white px-2'>fragrances</span> in Malaysia
         </p>
         <div className='space-x-6 mt-16'>
     <a href='#Brand' className='border px-8 py-3 transition-all duration-400 hover:bg-black hover:text-white hover:px-10 hover:py-4'>

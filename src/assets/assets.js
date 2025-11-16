@@ -14,6 +14,14 @@ import rirana from './rirana.webp'
 import profile_img_1 from './profile_img_1.png'
 import profile_img_2 from './profile_img_2.png'
 import profile_img_3 from './profile_img_3.png'
+import about1 from './about1.jpeg'
+import about2 from './about2.jpeg'
+import about3 from './about3.jpeg'
+import about4 from './about4.jpeg'
+import about5 from './about5.jpeg'
+import about6 from './about6.jpeg'
+import about7 from './about7.jpeg'
+import about8 from './about8.jpeg'
 
 export const assets = {
     logo,
@@ -25,6 +33,16 @@ export const assets = {
     voltage,
     zesty,
     rainforest,
+    cola,
+    rirana,
+    about1,
+    about2,
+    about3,
+    about4,
+    about5,
+    about6,
+    about7,
+    about8,
     left_arrow,
     right_arrow,
 }
