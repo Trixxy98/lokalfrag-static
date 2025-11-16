@@ -33,7 +33,7 @@ const Brands = () => {
       whileInView={{opacity:1,x:0}}
       viewport={{once:true}}  
     className='container mx-auto py-4 pt-20 px-6 md:px-20 lg:px-32 my-20 w-full overflow-hidden' id='Brand'>
-        <h1 className='text-2xl text-center mb-2 sm:text-4xl'>Brand <span className='underline underline-offset-4 decoration-1 under font-light'>Collaborate</span></h1>
+        <h1 className='text-2xl text-center mb-2 sm:text-4xl'>Brand <span className='bg-black text-white px-2'>Collaborate</span></h1>
         <p className='text-center text-gray-500 mb-8 max-w-80 mx-auto'>
             Crafting The Best Scents, Building Platform To Explore Our Malaysian Fragrances</p>
 

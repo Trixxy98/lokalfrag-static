@@ -49,18 +49,18 @@ const Contact = () => {
             <div className='flex flex-wrap'>
                 <div className='w-full md:w-1/2 text-left'>
                     Name:
-                    <input className='w-full border border-gray-300 rounded py-3 px-4 mt-2' type='text' name='name' placeholder='Your Name' required />
+                    <input className='w-full border border-gray-300 rounded-2xl py-3 px-4 mt-2' type='text' name='name' placeholder='Your Name' required />
                 </div>
                 <div className='w-full md:w-1/2 text-left md:pl-4'>
                     Email:
-                    <input className='w-full border border-gray-300 rounded py-3 px-4 mt-2' type='text' name='email' placeholder='Your Email' required />
+                    <input className='w-full border border-gray-300 rounded-2xl py-3 px-4 mt-2' type='text' name='email' placeholder='Your Email' required />
                 </div>
             </div>
             <div className='my-6 text-left'>
                 Message:
-                <textarea className='w-full border border-gray-300 rounded py-3 px-4 mt-2 h-48 resize-none ' name='message' placeholder='Message ' required/>
+                <textarea className='w-full border border-gray-300 rounded-2xl py-3 px-4 mt-2 h-48 resize-none ' name='message' placeholder='Message ' required/>
             </div>
-            <button className=' border text-black py-2 px-12 mb-10 hover:bg-blue-300 hover:text-white'>{result ? result : "Send Message"}</button>
+            <button className='rounded-2xl border text-black py-2 px-12 mb-10 hover:bg-blue-300 hover:text-white'>{result ? result : "Send Message"}</button>
         </form>
     </motion.div>
   )

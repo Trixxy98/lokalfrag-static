@@ -20,7 +20,7 @@ const Navbar = () => {
     <div className='absolute top-0 left-0 w-full z-10'>
         <div className='container mx-auto flex justify-between items-center py-4 px-6 md:px-20 lg:px-32 bg-transparent'>
             <img src={assets.logo} alt="Logo"/>
-            <ul className='hidden md:flex gap-7 text-gray-500 font-medium'>
+            <ul className='hidden md:flex gap-7 text-white font-semibold'>
                 <a href="#Home" class="relative group inline-block px-4">
                 <span>Home</span>
                 <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-gray-700 transition-all duration-500 group-hover:w-full"></span>
@@ -41,12 +41,13 @@ const Navbar = () => {
             <button className='
     hidden 
     md:block 
-    bg-gray-700 
+    bg-white
     px-10 
-    py-1 
-    text-gray-200 
+    py-3 
+    text-black
     transition-all 
     duration-300 
+    rounded-2xl
     hover:bg-blue-400
     hover:text-white
     hover:scale-105

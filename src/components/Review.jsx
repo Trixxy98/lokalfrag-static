@@ -11,8 +11,8 @@ const Review = () => {
       whileInView={{opacity:1,x:0}}
       viewport={{once:true}}
     className='container mx-auto py-10 lg:px-32 w-full overflow-hidden' id='Review'>
-        <h1 className='text-2xl sm:text-4xl font-bold mb-2 text-center'>
-            Customer <span className='underline underline-offset-4 decoration-1 under font-light'>Reviews</span>
+        <h1 className='text-2xl sm:text-4xl mb-2 text-center'>
+            Customer <span className='bg-black text-white px-2'>Reviews</span>
         </h1>
         <p className='text-center text-gray-500 mb-12 max-w-80 mx-auto'>
             Real Stories from Those Who Found Fragrances with Us
