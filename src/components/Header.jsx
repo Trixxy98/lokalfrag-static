@@ -4,7 +4,7 @@ import Navbar from './Navbar.jsx'
 
 const Header = () => {
   return (
-    <div className='min-h-screen bg-gray-100 flex flex-col w-full overflow-hidden'>
+    <div className='min-h-screen bg-gray-100 flex flex-col w-full overflow-hidden' id='Home'>
       <Navbar/>
       <div className='flex-1 flex flex-col items-center justify-center px-6 md:px-20 lg:px-32 py-20'>
         <div>
