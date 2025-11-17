@@ -1,16 +1,33 @@
-# React + Vite
+LokalFrag Static
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+LokalFrag Static is a lightweight, high-performance static website built using React, Vite, and GSAP for modern UI animations. Designed for speed, clean structure, and smooth interactions, this project is fully optimized for static hosting and deployed using Vercel.
 
-Currently, two official plugins are available:
+🌐 Live Demo: https://lokalfrag-static.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Features
 
-## React Compiler
+⚡ Vite-Powered Dev Experience — instant startup & fast builds
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+⚛️ React Components — modular, scalable architecture
 
-## Expanding the ESLint configuration
+🎬 GSAP Animations — smooth, high-performance animations
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🔥 Hot Module Replacement (HMR) for rapid development
+
+🧹 ESLint — ensures clean and consistent code
+
+📁 Straightforward Project Structure — simple to extend and maintain
+
+🌐 Static Deployment Ready — ideal for Vercel, Netlify, GitHub Pages, etc.
+
+📦 Tech Stack
+
+React
+
+Vite
+
+GSAP (GreenSock Animation Platform)
+
+JavaScript / JSX
+
+ESLint
